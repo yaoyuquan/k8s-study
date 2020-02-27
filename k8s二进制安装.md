@@ -71,6 +71,7 @@ cp kubectl /usr/bin/
 cp kubelet /usr/bin/
 cp kube-proxy /usr/bin/
 ```
+修改master的host文件/etc/hosts，增加node-a，node-b，node-c的主机名解析
 
 
 ## 2. 安装master
